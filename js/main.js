@@ -208,27 +208,27 @@
 //___________________________________________________________________
 // For toast and alert messages
 
-$(document).ready(function(){
-  AOS.init(); // only works if initialize aos library at the end
-  $('.toast').toast(option); // initialize toast feature
-  $('.alert').alert() // initialize dismissal of an alert feature
+// $(document).ready(function(){
+//   AOS.init(); // only works if initialize aos library at the end
+//   $('.toast').toast(option); // initialize toast feature
+//   $('.alert').alert() // initialize dismissal of an alert feature
 
-});
+// });
 
-function showToast(elementId) {
-  $(elementId).toast('show'); 
-}
+// function showToast(elementId) {
+//   $(elementId).toast('show'); 
+// }
 
-// make sure all toasts doesn't auto-hide
-$('.toast').toast({autohide: false});
+// // make sure all toasts doesn't auto-hide
+// $('.toast').toast({autohide: false});
 
-// make toast appear, and play music when 'yes' button (musicShow button) is clicked
-setTimeout(function() {showToast('#alertToast');}, 2000); // delay effect: questionToast will show after 2 sec
+// // make toast appear, and play music when 'yes' button (musicShow button) is clicked
+// setTimeout(function() {showToast('#alertToast');}, 2000); // delay effect: questionToast will show after 2 sec
 
-// once alert dismissed, navbar top value revert back to normal
-var navbar = document.getElementById('header');
-$('#alert').on('closed.bs.alert', function () {
-  navbar.style.cssText = 'top: 0;';
-});
+// // once alert dismissed, navbar top value revert back to normal
+// var navbar = document.getElementById('header');
+// $('#alert').on('closed.bs.alert', function () {
+//   navbar.style.cssText = 'top: 0;';
+// });
 
 
