@@ -661,6 +661,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-decoration: underline;
 }
 
+/* new register table */
+#registerTable {
+  text-align: center;
+}
+
+.registerTable td{
+  text-align: center;
+  /* border-right: #333 solid 0.5px;
+  border-left: #333 solid 0.5px; */
+ 
+  
+}
+
 @media only screen and (max-width: 800px) {
   #d1 table th,
   #d2 table th {
