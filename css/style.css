@@ -694,6 +694,72 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 1vw 3.5vw 0;
 }
 
+/* call for papers 
+-------------------------------*/
+
+.flashing_btn {
+  -webkit-animation: glowing 1000ms infinite;
+  -moz-animation: glowing 1000ms infinite;
+  -o-animation: glowing 1000ms infinite;
+  animation: glowing 1000ms infinite;
+}
+
+
+@-webkit-keyframes glowing {
+  0% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+  50% { background-color: #9affc4; -webkit-box-shadow: 0 0 40px #9affc4; }
+  100% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+  50% { background-color: #9affc4; -webkit-box-shadow: 0 0 40px #9affc4; }
+  100% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+  50% { background-color: #9affc4; -webkit-box-shadow: 0 0 40px #9affc4; }
+  100% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+}
+
+@keyframes glowing {
+  0% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+  50% { background-color: #9affc4; -webkit-box-shadow: 0 0 40px #9affc4; }
+  100% { background-color: #C3FFDC; -webkit-box-shadow: 0 0 3px #C3FFDC; }
+}
+
+.call_for_paper_btn{
+  background-color: #C3FFDC;  
+  text-align: center; 
+  border-radius: 10px; 
+  width: 20%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.info_btn {
+  border: none;
+  transition: 0.4s;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.info_btn:hover {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.info_btn:active {
+  border: none;
+}
+
+
+
+
 /* Featured Services Section
 --------------------------------*/
 
