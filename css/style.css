@@ -733,8 +733,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #C3FFDC;  
   text-align: center; 
   border-radius: 10px; 
-  width: 20%;
-  height: 40px;
   border: none;
   cursor: pointer;
 
