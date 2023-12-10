@@ -739,7 +739,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-.info_btn {
+/* .info_btn {
   border: none;
   transition: 0.4s;
   background-color: rgba(0, 0, 0, 0.0);
@@ -753,7 +753,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .info_btn:active {
   border: none;
-}
+} */
 
 
 
