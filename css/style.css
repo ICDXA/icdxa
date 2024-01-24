@@ -681,6 +681,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+/* Important Section
+--------------------------------*/
+.important-details{
+  margin-bottom: -6px;
+  font-size: 20px;
+}
+
 /* Section with background
 --------------------------------*/
 
