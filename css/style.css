@@ -811,6 +811,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 
+.blink {
+  
+  color : blue;
+  font-style: italic;
+  font-size: 20px;
+  /* background-color: red; */
+  margin-right: 0.5rem;
+    animation: blink 2s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+  }
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+.noblink {
+ margin-right: 0.5rem;
+  }
+
+
 #about {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
